@@ -1,9 +1,10 @@
-const {sumNum, multiplyNum} = require("./math")
+// const {sumNum, multiplyNum} = require("./math")
+const data = require("./data.json")
+console.log(JSON.stringify(data))
 
 var name = "Namaste NodeJS";
 var a = 10;
 var b = 20;
 
-console.log(name);
-sumNum(a, b);
-multiplyNum(a, b);
+// sumNum(a, b);
+// multiplyNum(a, b);
