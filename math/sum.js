@@ -2,8 +2,9 @@
 console.log("Sum module executed");
 var text = 10;
 
-export function sumNum (a, b) {
+function sumNum (a, b) {
   console.log(a+b);
 }
 
-// module.exports = {text, sumNum}
+module.exports.sumNum = sumNum;
+module.exports.text = text;
